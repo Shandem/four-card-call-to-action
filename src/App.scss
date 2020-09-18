@@ -1,0 +1,112 @@
+:root{
+    --primary-red: hsl(0, 78%, 62%);
+    --primary-cyan: hsl(180, 62%, 55%);
+    --primary-orange: hsl(34, 97%, 64%);
+    --primary-blue: hsl(212, 86%, 64%);
+    --neutral-Dblue: hsl(234, 12%, 34%);
+    --neutral-Gblue: hsl(229, 6%, 66%);
+    --neutral-Lgray: hsl(0, 0%, 98%);
+    --Fsize: 15px;
+    --deskW: 1440px;
+    --mobileW: 375px;
+    --shadow: -1px 3px 3px 2px rgba(0,0,0,.25);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+.App{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+    text-align: center;
+    width: var(--deskW);
+}
+.callTitle{
+    margin: 50px;
+    .thin{
+        font-weight: 200;
+        line-height: 10px;
+    }
+
+    p{
+        font-size: var(--Fsize);
+        color: var(--neutral-Gblue);
+    }
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 1100px;
+    margin: auto;
+}
+.super{
+    border-top: solid 5px var(--primary-cyan);
+}
+.calc{
+    border-top: solid 5px var(--primary-blue);
+}
+.drop{
+    box-shadow: var(--shadow);
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    text-align: left;
+    margin-top: 130px;
+    .text{
+        margin-top:  -20px;
+       
+    }
+
+    p{
+        font-size: var(--Fsize);
+        color: var(--neutral-Gblue)
+    }
+    .teamIcon{
+        margin-top: 20px;
+        float: right;
+    }
+}
+
+.team{
+    margin: auto;
+    margin-top: 0px;
+    border-top: solid 5px var(--primary-red);
+    box-shadow: var(--shadow);
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    text-align: left;
+    .text{
+        margin-top:  -20px;
+    }
+
+    p{
+        font-size: var(--Fsize);
+        color: var(--neutral-Gblue)
+    }
+    .teamIcon{
+        margin-top: 20px;
+        float: right;
+    }
+}
+.karma{
+    margin: auto;
+    margin-top: -100px;
+    border-top: solid 5px var(--primary-orange);
+    box-shadow: var(--shadow);
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+    text-align: left;
+    .text{
+        margin-top:  -20px;
+    }
+
+    p{
+        font-size: var(--Fsize);
+        color: var(--neutral-Gblue)
+    }
+    .teamIcon{
+        margin-top: 20px;
+        float: right;
+    }
+}
